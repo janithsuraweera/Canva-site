@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+
+.container {
+    background-color:#d1d0d0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 300px!important;
+    width: 25%!important;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input-field i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #656565;
+    font-size: 18px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px 10px 10px 35px; /* Extra padding for icon space */
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #000000;
+    outline: none;
+    background: transparent;
+    transition: 0.3s;
+}
+
+.input-field label {
+    position: absolute;
+    top: 10px;
+    left: 35px; /* Adjusted for icon position */
+    color: #656565;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.input-field input:focus ~ label,
+.input-field input:valid ~ label {
+    top: -10px;
+    font-size: 12px;
+    color: #9b59b6;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #9b59b6;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+   
+}
+
+button:hover {
+    background-color: #8e44ad;
+}
+
+button:active {
+    background-color: #3e0f52;
+}
