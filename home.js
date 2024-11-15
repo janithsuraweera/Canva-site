@@ -44,4 +44,11 @@ function toggleForm() {
       alert("Please fill in all fields");
     }
   }
+
+document.querySelectorAll('.pricing-card button').forEach(button => {
+  button.addEventListener('click', () => {
+      alert('Button clicked!');
+  });
+});
+
   
