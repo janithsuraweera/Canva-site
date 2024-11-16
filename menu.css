@@ -1,48 +1,76 @@
+/* General Reset */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #ffffff;
-  }
-  
-  .menu-container {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .menu-category {
-    width: 200px;
-  }
-  
-  .menu-category h3 {
-    font-size: 16px;
-    font-weight: bold;
-    color: #000;
-    margin-bottom: 10px;
-  }
-  
-  .menu-category ul {
-    list-style-type: none;
-  }
-  
-  .menu-category ul li {
-    font-size: 14px;
-    color: #333;
-    margin-bottom: 8px;
-    cursor: pointer;
-  }
-  
-  .menu-category ul li:hover {
-    color: #5a67d8;
-    text-decoration: underline;
-  }
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #e6e9f0, #eef1f5);
+  color: #333;
+}
+
+/* Menu Container */
+.menu-container {
+
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Category */
+.menu-category {
+  width: 220px;
+}
+
+/* Category Titles */
+.menu-category h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4a4a4a;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #5a67d8;
+  padding-bottom: 8px;
+}
+
+/* List Styling */
+.menu-category ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.menu-category ul li {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect */
+.menu-category ul li:hover {
+  color: #5a67d8;
+  transform: translateX(5px);
+}
+
+/* Links Styling */
+.menu-category ul li a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.menu-category ul li a:hover {
+  color: #5a67d8;
+  text-decoration: underline;
+}

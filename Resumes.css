@@ -16,15 +16,17 @@ body {
 .container {
     width: 500px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #d5d5d5;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    margin-top: 50px;
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #212121;
     margin-bottom: 20px;
+
 }
 
 .form-group {

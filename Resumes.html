@@ -25,19 +25,24 @@
                         <a class="nav-link active" aria-current="page" href="home.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Education</a>
+                        <a class="nav-link" href="education.html">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="about_us.html">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Faq.html">FAQ</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Learn
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Logo</a></li>
-                            <li><a class="dropdown-item" href="#">CV Templates</a></li>
-                            <li><a class="dropdown-item" href="#">Video</a></li>
+                            <li><a class="dropdown-item" href="https://looka.com/logo-maker/">Logo</a></li>
+                            <li><a class="dropdown-item" href="Resumes.html">CV Templates</a></li>
+                            <li><a class="dropdown-item" href="https://www.youtube.com/education">Video</a></li>
+                            <li><a class="dropdown-item" href="menu.html">More...</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -51,6 +56,7 @@
                 <div class="navbar-buttons">
                     <a href="login.html" class="btn btn-outline-primary me-2">Login</a>
                     <a href="login.html" class="btn btn-primary">Sign Up</a>
+                    
                 </div>
 
 
@@ -65,31 +71,31 @@
 <body>
     <div class="container">
         <h1>CV Generator</h1>
-        <form id="cv-form">
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" required>
+        <form id="cv-form" class="mb-5">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" class="form-control" required>
             </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" required>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" class="form-control" required>
             </div>
-            <div class="form-group">
-                <label for="phone">Phone:</label>
-                <input type="tel" id="phone" required>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone:</label>
+                <input type="tel" id="phone" class="form-control" required>
             </div>
-            <div class="form-group">
-                <label for="education">Education:</label>
-                <textarea id="education" required></textarea>
+            <div class="mb-3">
+                <label for="education" class="form-label">Education:</label>
+                <textarea id="education" class="form-control" rows="4" required></textarea>
             </div>
-            <div class="form-group">
-                <label for="skills">Skills:</label>
-                <textarea id="skills" required></textarea>
+            <div class="mb-3">
+                <label for="skills" class="form-label">Skills:</label>
+                <textarea id="skills" class="form-control" rows="4" required></textarea>
             </div>
-            <button type="button" onclick="generateCV()">Generate CV</button>
+            <button type="button" onclick="generateCV()" class="btn btn-primary">Generate CV</button>
         </form>
 
-        <div id="cv-output" class="cv-output" style="display: none;">
+        <div id="cv-output" class="cv-output card p-4" style="display: none;">
             <h2>Curriculum Vitae</h2>
             <p><strong>Name:</strong> <span id="output-name"></span></p>
             <p><strong>Email:</strong> <span id="output-email"></span></p>
@@ -98,6 +104,7 @@
             <p id="output-education"></p>
             <h3>Skills</h3>
             <p id="output-skills"></p>
+            <button onclick="downloadCV()" class="btn btn-success mt-3">Download CV</button>
         </div>
     </div>
     <script src="Resumes.js"></script>
