@@ -30,6 +30,7 @@
 .card h3 {
     font-size: 1.5em;
     margin-bottom: 15px;
+   
 }
 
 .card img {
@@ -38,6 +39,7 @@
     height: 200px;
     border-radius: 10px;
     position:relative;
+    
 }
 
 .card:hover {
@@ -50,13 +52,15 @@
 .pricing-section {
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 100px;
 }
 
 .pricing-options {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 50px;
+   
 }
 
 .pricing-card {
