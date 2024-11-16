@@ -48,7 +48,7 @@ h2 {
 
 .input-field input {
     width: 100%;
-    padding: 10px 10px 10px 35px; /* Extra padding for icon space */
+    padding: 10px 10px 10px 35px; 
     font-size: 16px;
     border: none;
     border-bottom: 2px solid #000000;
@@ -60,7 +60,7 @@ h2 {
 .input-field label {
     position: absolute;
     top: 10px;
-    left: 35px; /* Adjusted for icon position */
+    left: 35px; 
     color: #656565;
     font-size: 16px;
     pointer-events: none;

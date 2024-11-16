@@ -1,11 +1,11 @@
 const canvas = document.getElementById("whiteboard");
 const ctx = canvas.getContext("2d");
 
-// Set canvas to full window size
+// set canvas to full window size
 canvas.width = window.innerWidth * 0.9;
 canvas.height = window.innerHeight * 0.7;
 
-// Initial brush settings
+// brush settings
 let painting = false;
 let brushColor = document.getElementById("colorPicker").value;
 let brushSize = document.getElementById("sizePicker").value;
@@ -17,7 +17,7 @@ function startPosition(e) {
 
 function endPosition() {
     painting = false;
-    ctx.beginPath(); // Resets the path so it doesn’t connect lines across breaks
+    ctx.beginPath();
 }
 
 function draw(e) {
