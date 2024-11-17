@@ -14,12 +14,12 @@ body {
 
 
 .container {
-    background-color:#d1d0d0;
+    background-color: #d1d0d0;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    height: 300px!important;
-    width: 25%!important;
+    height: 300px !important;
+    width: 25% !important;
     justify-content: center;
     margin-top: 100px;
 }
@@ -48,7 +48,7 @@ h2 {
 
 .input-field input {
     width: 100%;
-    padding: 10px 10px 10px 35px; 
+    padding: 10px 10px 10px 35px;
     font-size: 16px;
     border: none;
     border-bottom: 2px solid #000000;
@@ -60,15 +60,15 @@ h2 {
 .input-field label {
     position: absolute;
     top: 10px;
-    left: 35px; 
+    left: 35px;
     color: #656565;
     font-size: 16px;
     pointer-events: none;
     transition: 0.3s;
 }
 
-.input-field input:focus ~ label,
-.input-field input:valid ~ label {
+.input-field input:focus~label,
+.input-field input:valid~label {
     top: -10px;
     font-size: 12px;
     color: #9b59b6;
@@ -84,7 +84,7 @@ button {
     cursor: pointer;
     transition: 0.5s;
     border-radius: 5px;
-   
+
 }
 
 button:hover {

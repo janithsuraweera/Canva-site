@@ -1,4 +1,3 @@
-/* Card Styles */
 .container {
     display: flex;
     gap: 20px;
@@ -17,7 +16,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     width: 220px;
     height: 300px;
     padding: 20px;
@@ -30,23 +29,24 @@
 .card h3 {
     font-size: 1.5em;
     margin-bottom: 15px;
-   
+
 }
 
 .card img {
-   
+
     width: 100%;
     height: 200px;
     border-radius: 10px;
-    position:relative;
-    
+    position: relative;
+
 }
 
 .card:hover {
 
-    transform: scale(1.12); /* card is up scale */
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); 
-    cursor: pointer; 
+    transform: scale(1.12);
+    /* card is up scale */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 .pricing-section {
@@ -60,15 +60,15 @@
     gap: 50px;
     justify-content: center;
     margin-top: 50px;
-   
+
 }
 
 .pricing-card {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
-    width: 300px!important;
-    height:350px !important;
+    width: 300px !important;
+    height: 350px !important;
     background-color: #f9f9f9;
 }
 
@@ -89,8 +89,9 @@
     border-radius: 5px;
     cursor: pointer;
     margin-top: 30px;
-    width:100% ;
+    width: 100%;
 }
+
 .pricing-card button:hover {
     background-color: #4a148c;
 }
@@ -108,13 +109,13 @@
 
 .trusted-logos {
     overflow: hidden;
-    white-space:inherit;
+    white-space: inherit;
     width: 100%;
 }
 
 .logos-wrapper {
     display: flex;
-  gap: 20px;
+    gap: 20px;
     animation: scroll 15s linear infinite;
 }
 
@@ -124,7 +125,7 @@
 
 .ai-section {
 
-  text-align: center;
+    text-align: center;
     margin-top: 50px;
     padding: 50px 0;
     background-color: #f9f9f9;
@@ -140,8 +141,6 @@
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
-   
-    
 }
 
 .ai-section button:hover {

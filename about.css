@@ -1,78 +1,78 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  body {
-    height: 100vh;
-    background-color: #f4f4f9;
-    padding: 20px;
-  }
-  
-  .about-container {
-    width: 900px;
-    background-color: white;
-    padding: 30px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    text-align: center;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-  
-  h1, h2 {
-    color: #333;
-  }
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
 
-  .about-description {
-    font-size: 16px;
-    color: #666;
-    margin: 10px 0 20px;
-  }
-  
-  .team-section {
-    margin: 20px 0;
-  }
-  
-  .team-member {
-    display: inline-block;
-    margin: 20px;
-    text-align: center;
-  }
-  
-  .team-member img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  
-  .team-member h3 {
-    margin-top: 10px;
-    color: #333;
-  }
-  
-  .team-member p {
-    color: #666;
-    font-size: 14px;
-  }
-  
-  .social-media {
-    margin-top: 20px;
-  }
-  
-  .social-link {
-    text-decoration: none;
-    color: #5a67d8;
-    margin: 0 10px;
-    font-size: 16px;
-  }
-  
-  .social-link:hover {
-    text-decoration: underline;
-  }
-  
+body {
+  height: 100vh;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+.about-container {
+  width: 900px;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+
+.about-description {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0 20px;
+}
+
+.team-section {
+  margin: 20px 0;
+}
+
+.team-member {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.team-member p {
+  color: #666;
+  font-size: 14px;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.social-link {
+  text-decoration: none;
+  color: #5a67d8;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}

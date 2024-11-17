@@ -40,7 +40,7 @@ Skills:
 ${skills}
 `;
 
-    // Create a Blob and trigger the download
+    //  trigger the download
     const blob = new Blob([cvContent], { type: "text/plain" });
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);

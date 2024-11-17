@@ -1,79 +1,75 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
 
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f9f9fb;
-  }
-  
+body {
 
-  
-  h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .faq-item {
-    margin-bottom: 15px;
-    border-bottom: 1px solid #ddd;
-    padding: 10px 0;
-  }
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9fb;
+}
 
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
 
-  
-  .hidden {
-    display: none;
-  }
-  .faq-container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.faq-item {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
 .faq-question {
-    font-size: 18px;
-    font-weight: bold;
-    color: #007bff;
-    cursor: pointer;
-    transition: color 0.3s ease;
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s ease;
 }
 
 .faq-question:hover {
-    color: #0056b3;
+  color: #0056b3;
 }
 
 .faq-answer {
-    font-size: 16px;
-    color: #333;
-    margin-top: 10px;
-    line-height: 1.6;
-    display: none;
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+  line-height: 1.6;
+  display: none;
 }
 
 .faq-answer.hidden {
-    display: none;
+  display: none;
 }
 
 .faq-answer:not(.hidden) {
-    display: block;
+  display: block;
 }
 
-  
+
 .footer-bottom {
   text-align: center;
   padding-top: 1rem;
   border-top: 1px solid #444;
 }
-

@@ -11,13 +11,14 @@ body {
     min-height: 100vh;
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
+
 .container {
     background-color: #d1d0d0;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    height: 400px!important;
-    width: 25%!important;
+    height: 400px !important;
+    width: 25% !important;
     text-align: center;
     margin-top: 100px;
 }
@@ -62,8 +63,8 @@ body {
     transition: 0.3s;
 }
 
-.input-field input:focus ~ label,
-.input-field input:valid ~ label {
+.input-field input:focus~label,
+.input-field input:valid~label {
     top: -10px;
     font-size: 12px;
     color: #9b59b6;
