@@ -1,10 +1,67 @@
+h1:hover {
+    color: #ffffff;
+}
+
+h1 span {
+    background: linear-gradient(90deg, #2802ff, #7f22dc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+h1 span:active {
+    background: linear-gradient(90deg,  #7f22dc,#2802ff);
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    cursor: pointer;
+    
+}
+
+p {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 20px;
+   
+}
+h1,p{
+    text-align: center;
+
+}
+.btn1{
+
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    background-color: #8d1db3;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-left: 45%;
+}
+
+.btn1:hover {
+    background-color: #7d02aa;
+    transform: scale(1.05);
+    color: rgb(255, 255, 255);
+}
+
+.btn1:active {
+    background-color: #73059f;
+    transform: scale(1);
+    color: #000000;
+}
+
 .container {
     display: flex;
     gap: 20px;
     padding: 20px;
-    max-width: 100vw;
+    max-width: 100%;
     overflow-x: auto;
     background-color: #e6e6e6;
+    margin-top: 50px;
 }
 
 .card-link {
